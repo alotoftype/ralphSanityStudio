@@ -9,9 +9,9 @@ export default () =>
         .child(
           S.document()
             .schemaType('Bio')
-            .documentId('Bio')
+            //.documentId('Bio')
+            .documentId('a1db5ad4-934c-4188-b7c5-b38d1b217819')
         ),
-      // ...S.documentTypeListItems().filter(listItem => !['Bio'].includes(listItem.getId()))
-      ...S.documentTypeListItems()
+      ...S.documentTypeListItems().filter(listItem => !['Bio'].includes(listItem.getId()))
     ]
     )
