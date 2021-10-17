@@ -1,0 +1,30 @@
+{
+  "name": "ralpheditswebsite",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "SMjr <alotoftype@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.21.4",
+    "@sanity/core": "^2.21.4",
+    "@sanity/default-layout": "^2.21.4",
+    "@sanity/default-login": "^2.21.4",
+    "@sanity/desk-tool": "^2.21.4",
+    "@sanity/production-preview": "2.15.0",
+    "@sanity/vision": "^2.21.4",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "4.3.1",
+    "styled-components": "^5.2.0"
+  }
+}
